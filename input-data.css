@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+body{
+      min-width: 1400px;
+}
+.nav{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+     
+}
+.nav-sylvan{
+    /* border: 2px solid black; */
+    width: 27%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:orange;
+    margin-left: 5%;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 900;
+}
+.nav-home-case-contact{
+    /* border: 2px solid red; */
+    width: 28%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5%;
+    font-size: 16px;
+}
+.nav-button{
+    /* border: 2px solid black; */
+    width: 42%;
+    height: 100%;
+    background-color: orange;
+    color:white;
+    font-size: 16px;
+}
+.full-screen{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 833px;
+   background-color:#EDEDEd;
+   position: relative;
+}
+.full-screen-Make-heading{
+    /* border: 2px solid black; */
+    width: 41%;
+    font-size: 49px;
+    line-height: 64px;
+    font-weight: 700;
+    position: absolute;
+    /* top:126px; */
+    top:15%;
+    left: 7%;
+      
+}
+.full-screen-img{
+    /* border: 2px solid black; */
+    width: 46%;
+    height: 54%;
+    position: absolute;
+    /* top:394px; */
+    top:46%;
+     left: 5%;
+    background-image: url("Frame\ 77\ \(1\).png");
+     background-size: cover;
+     background-position: center;
+     
+    }
+
+    .full-screen-imput-data{
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 43%;
+        height: 92%;
+        position: absolute;
+        /* top:184px;
+        left: 742px; */
+        top:13%;
+        left:51%;
+        display: flex;
+        flex-direction: column;
+       gap: 25px;
+       padding: 30px 20px;
+       background-color: #FFFFFF;
+    }
+    .input-name{
+        border:1px solid black;
+        width: 99%;
+        height: 50px;
+        display: flex;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+    .logo1{
+        /* border: 2px solid black; */
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 10%;
+        height: 26px;
+        /* height: 100%; */
+        background-color: #F9F9F9;
+        padding: 11px;
+       }
+    .input-name input{
+        width: 90%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: none;
+        background-color: #F9F9F9;
+        font-size: 25px;
+        
+    }
+    .button-connent{
+        /* border: 2px solid black; */
+        border-radius: 10px;
+        width: 30%;
+        height: 50px;
+        color: white;
+        background-color: #FCA311;
+        padding: 15px 40px 15px 40px;
+        margin-top: 10px;
+        margin: 0px 35% 0% 35%;
+    }
+
+    .sylvan-schumm{
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 270px;
+        display: flex;
+        justify-content: space-evenly;
+         margin-top: 150px;
+      padding-top: 50px; 
+              }
+      .sylvan-box{
+        /* border: 2px solid black; */
+        width: 27%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+            }
+            .sylvan-heading{
+              font-size: 32px;
+              font-weight: 900px;
+              line-height: 39px;
+              color:#FCA311;
+            }
+      .Main-pages-box{
+        /* border: 2px solid black; */
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .case-studies-box{
+        /* border: 2px solid black; */
+        width: 16%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+      }
+      .lorem{
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+      }
+      .case-studies-box h4{
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 27px;
+      }
+            .Information-box{
+        /* border: 2px solid black; */
+        width: 27%;
+      }
+      .informaion{
+        /* border: 2px solid red; */
+        display: flex;
+        align-items: center;
+        
+      }
+      .locatin-data{
+        color:black;
+      }
+      
+      .information-last-four-box{
+        /* border: 2px solid blue; */
+        height: 65px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .information-box1{
+        /* border: 2px solid black; */
+        width: 17%;
+        height: 100%;
+      }
+      .Main-pages-box{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+                
+      }
+      .footer{
+        /* border: 2px solid black; */
+         height: 35px;
+        color:white;
+        background-color: #333333;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 20px;
+      }

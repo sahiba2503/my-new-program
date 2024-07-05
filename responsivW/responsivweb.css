@@ -1,0 +1,706 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .outside-border{
+    /* border: 2px solid green; */
+    width: 100%;
+    /* height: 100%; */
+    min-width: 970px;
+} 
+.navbar{
+    /* border:1px solid black; */
+    border-bottom: 1px solid black;
+    /* width: 100%; */
+    /* height: 134px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    }
+    .nordic-rose{
+        /* border: 2px solid black; */
+        width: 45%;
+        color:black;
+        font-size: 45px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 5px;
+        /* padding-left: 30px; */
+    }
+.nav-list{
+    /* border: 1px solid black; */
+    width: 37%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 2px;
+}
+.borger{
+    display: none;
+}
+.blog{
+    /* border: 2px solid black; */
+    position: relative;
+}
+.blog::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: -48px;
+}
+.afew-heading{
+    /* border: 2px solid black; */
+    width: 56%;
+    /* height: 162px; */
+    font-size: 57px;
+    font-weight: 700;
+    line-height: 54px;
+padding-left: 22%;
+padding-right: 22%;
+text-align: center;
+/* margin-top: 52px; */
+margin-top: 55px;
+
+}
+.whygost-text{
+    /* border: 2px solid black; */
+    width: 42%;
+    /* height: 50px; */
+    padding-left: 29%;
+    padding-right: 29%;
+    font-size: 27px;
+    line-height: 34px;
+    text-align: center;
+    font-weight: 400;
+    margin: 35px 0;
+    
+}
+.img-box{
+    /* border: 2px solid red; */
+    width: 100%;
+       
+             }
+.img-img{
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.outer-box-mika{
+    /* border: 2px solid yellowgreen; */
+    width: 46%;
+    padding-left: 27%;
+    padding-right: 27%;
+}
+.mika-box{
+    border-top: 2px solid black;
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    padding-top: 20px;
+    
+}
+.parrent-logo-heading{
+    /* border: 2px solid red; */
+    width: 50.3%;
+    height: 56px;
+    display: flex;
+    padding: 20px 0;
+}
+.img-logo{
+    /* border: 2px solid black; */
+    width: 23%;
+    height: 56px;
+    background-image: url("image\ 3.png");
+    background-size: cover;
+    background-position: center;
+}
+.mika-heading-date{
+    /* border: 2px solid yellow; */
+    width:80% ;
+    font-size: 15px;
+    font-weight: 700;
+    height: 46px;
+    line-height: 20px;
+    margin-left: 14px;
+    letter-spacing: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.mika-heading-date data{
+    font-weight: 400;
+}
+
+.two-logo{
+    /* border: 2px solid blue; */
+    width: 140px;
+    height: 44px;
+    display: flex;
+    
+}
+.logo1{
+    border: 0.5px solid black;
+    width: 50%;
+    height: 100%;
+    background-image: url("facebook\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo2{     
+    background-image: url("Vector\ \(16\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo3{     
+    background-image: url("Vector\ \(17\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: none;
+}
+.mika-para{
+    /* border: 2px solid black; */
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-top: 65px;
+}
+.mika-para2{
+    /* border: 2px solid black; */
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-top: 35px;
+}
+.mika-para3{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-top: 35px;
+}
+.mika-para3,h3{
+margin-bottom: 30px;
+
+}
+.Aenean-para{
+    /* border: 2px solid black; */
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-top: 35px;
+}
+.out-side-border-of-img{
+    /* border: 2px solid red; */
+    padding-left: 19%;
+    padding-right: 19%;
+    margin-top: 50px;
+}
+.second-big-img{
+    /* border: 2px solid black; */
+    height: 900px;
+    background-image: url( "Rectangle\ 8\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+    
+   }
+   .about-text{
+    /* border: 2px solid black; */
+    padding:0 23%;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+   }
+   .Aenean-para{
+    /* border: 2px solid black; */
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-top: 55px;
+    padding-left: 27%;
+    padding-right: 27%; 
+   }
+   .A-list-list{
+    /* border: 2px solid red; */
+   padding: 20px 27% 0 27% ;
+   
+     }
+    
+.A-list-list ul{
+        list-style-position: inside;
+   list-style-image: url(Rectangle\ 34.png);
+   font-size: 20px;
+line-height: 34px;
+font-weight: 400;
+}
+.A-list-list p{
+    margin: 50px 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+.A-list-list h4{
+    margin: 50px 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+.hidden-share{
+    display: none;
+}
+.facebook-twitter{
+    /* border: 2px solid black; */
+    height: 75px;
+     display: flex;
+    flex-direction: row;
+    }
+.facebook-logo{
+    border: 0.5px solid rgb(215, 213, 213);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #fefcfc;  
+      
+}
+.twitter-logo{
+    border: 0.5px solid rgb(218, 216, 216);
+    width: 50%;
+     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefcfc;  
+}
+.whatsapp-logo{
+    border: 0.5px solid rgb(218, 216, 216);
+     display: none;
+
+}
+.tags{
+    margin: 30px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.underline-text{
+    text-decoration: underline;
+}
+.Mika-text{
+    
+    border-top: 2px dotted black;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+.mika-logo{
+    /* border: 2px solid black; */
+    width: 10%;
+    height: 56px;
+    
+   }
+.mika-logo img{
+    object-fit: cover;
+    object-position: center;
+}
+.mika-para-text{
+    /* border: 2px solid black; */
+    width: 86%;
+    font-size: 17px;
+    line-height: 20px;
+   
+    
+}
+.bold-text{
+    font-size: 18px;
+    font-weight: bold;
+}
+.eye-box{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 65px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 65px;
+  }
+.left-border{
+    border: 1px solid black;
+    width: 47%;
+      
+}
+.two-eye{
+    /* border: 2px solid black; */
+    width: 6%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.right-border{
+    border: 1px solid black;
+    width: 47%;
+}
+.What-to ,h1{
+    /* border: 2px solid black; */
+    width: 100%;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: center;
+    margin-top: 50px;
+}
+.What-six-box{
+    /* border: 2px solid black; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 30px;
+}
+.what-box1{
+    /* border: 2px solid red; */
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.what-img-box{
+    /* border: 2px solid black; */
+    width: 100%;
+    /* height: 650%; */
+    object-fit: cover;
+    object-position: center;
+}
+.detail{
+    /* border: 2px solid green; */
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    padding: 0 5%;
+}
+.sign-up{
+    /* border: 2px solid blue; */
+    padding: 95px 23% 0 23%;
+    
+}
+.sign-up-utside-border{
+    /* border: 2px solid black; */
+    padding: 20px 40px;
+    /* padding: 40px; */
+    /* margin-top: 85px; */
+   
+}
+.sign-up-utside-border h3{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.sign-up-utside-border p{
+    /* border: 2px solid black; */
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    }
+.Enter-email{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 77px;
+    display: flex;
+    margin-top: 30px;
+    box-sizing: border-box;
+    }
+.input-box{
+/* border: 2px solid red; */
+width: 80%;
+height: 90%;
+
+}
+.input-data-box{
+    border: 2px solid black;
+    width: 96.5%;
+    height: 100%;
+    padding-left: 3%;
+    font-size: 20px;
+    }
+.sign-up-box{
+    /* border: 2px solid pink; */
+    background-color: black;
+    color:white;
+    width: 20%;
+    height: 95%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+footer {
+    background-color: #000000;
+    width: 100%;
+    margin-top: 75px;
+}
+
+.footer-list {
+    /* border: 2px solid black; */
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+.footer-item-bold {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.footer-item {
+    color: white;
+    font-size: 12px;
+}
+
+.footer-heading {
+    /* border: 2px solid wheat; */
+    width: 100%;
+    text-align: center;
+    margin-top: 85px;
+    color: white;
+}
+
+.footer-text {
+    /* border: 2px solid white; */
+    color: white;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 33%;
+    padding-right: 33%;
+
+}
+
+.footer-three-point {
+    /* border: 2px solid white; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40%;
+    padding-right: 40%;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.twitter {
+    border-bottom: 2px solid white;
+}
+
+.linkedln {
+    border-bottom: 2px solid white;
+}
+
+.RSS {
+    border-bottom: 2px solid white;
+}
+
+.footer-date {
+    /* border: 2px solid white; */
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    text-align: center;
+    padding: 70px 44% 50px 44%;
+
+}
+@media screen and (max-width:375px) {
+.list-item{
+display: none;
+}
+.nav-list{
+    width: 25px;
+    
+}
+.borger{
+    display: block;      
+}
+.afew-heading{
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    padding:50px 5%;
+   font-size: 90px;
+   line-height: 105px;
+   font-weight: 700;
+   text-align: center;
+      
+}
+.whygost-text{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    padding: 0 5% 70px 5%;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 2px;
+}
+.img-box{
+    width: 100%;
+    height: 585px;
+}
+.outer-box-mika{
+    padding: 0;
+    width: 90%;
+    padding: 0 5%;
+}
+.mika-box{
+    display: block;
+}
+.parrent-logo-heading{
+    width: 90%;
+    height: 130px;
+    /* display: flex;
+    align-items: center; */
+}
+.img-logo{
+    height: 100%;
+}
+.mika-heading-date{
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.two-logo{
+    display: block;
+    width: 100%;
+    display: flex;
+   
+}
+.logo3{
+display: block;
+}
+.out-side-border-of-img{
+    width: 100%;
+    padding: 0;
+    }
+    .second-big-img{
+        width: 100%;
+        height: 590px;
+            }
+            .about-text{
+                width: 90%;
+                padding: 0 5%;
+                font-size: 25px;
+                letter-spacing: 1px;
+                line-height: 35px;
+                font-family: Arial, Helvetica, sans-serif;
+               
+            }
+            .Aenean-para{
+                width: 90%;
+                padding: 0 5%;
+                margin: 0;
+                font-size: px;
+            }
+            .detail-list{
+                display: none;
+            }
+            .display-none{
+                display: none;
+            }
+            .hidden-share{
+                display: flex;
+                margin-bottom: 20px;
+            }
+            .A-list-list{
+                padding: 0 5%;
+            }
+            .whatsapp-logo{
+               display: block;
+               height: 100%;
+               width: 34%;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+            }
+            .twitter-logo{
+                width: 34%;
+            }
+            .facebook-logo{
+                width: 33%;
+            }
+            .facebook-twitter{
+                width: 100%;
+            }
+            .tags{
+                font-size: 40px;
+                
+            }
+            .mika-para-text{
+                font-size: 35px;
+                line-height: 40px;
+                padding-top: 20px;
+                            }
+                            .Mika-text{
+                                margin-top: 50px;
+                            }
+                            .mika-logo{
+                                width: 25%;
+                                height: 140px;
+                            }
+                            .bold-text{
+                                font-size: 40px;
+                            }
+                            .eye-box{
+                                width: 100%;
+                                margin-top: 100px;
+                            }
+                            .hidden-img{
+                                display: none;
+                            }
+                            .three-box-img{
+                               
+                                width: 90%;
+                                display: block;
+                                padding: 0 5%;
+                                
+                            }
+                            .what-box1{
+                                width: 100%;
+                                margin-top: 50px;
+                            }
+                            .detail{
+                                font-size: 50px;
+                                line-height: 55px;
+                            }
+                            .sign-up{
+                                width: 90%;
+                                padding: 0 5%;
+
+                            }
+                            .sign-up h3{
+                                font-size: 55px;
+                            }
+                           
+            
+}
+

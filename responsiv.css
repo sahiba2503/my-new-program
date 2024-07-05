@@ -1,0 +1,36 @@
+.box{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+.insid-box{
+    border: 2px solid red;
+    font-size: 21px;
+ width: 70%;
+}
+.insid-img{
+    border: 2px solid green;
+    width: 20%;
+   background-image: url("boy1.png");
+   background-size: cover;
+   background-position: center;
+   
+}
+@media screen and (max-width: 800px)
+{
+    .box{
+        display: block;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .insid-box{
+        width: 100%;
+    }
+    .insid-img{
+        width: 50%;
+        height: 300px;
+        margin: 0% 25% 0% 25%;
+    }
+
+}
